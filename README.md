@@ -6,4 +6,4 @@
 MBAN at Hult International Business School
 
 ## Projects 
-Comet in Moominland - Text Adventure Game 
+[Comet in Moominland - Text Adventure Game]
