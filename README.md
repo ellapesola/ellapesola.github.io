@@ -1,8 +1,8 @@
 # ellapesola.github.io
 
-#Data Analyst 
+## Data Analyst 
 
-#Education 
+# #Education 
 MBAN at Hult International Business School
 
 ## Projects 
