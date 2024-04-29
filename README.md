@@ -1,9 +1,4 @@
-selector {
-  background-image: url('images/header.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
+
 <html>
 <head>
 </head>
