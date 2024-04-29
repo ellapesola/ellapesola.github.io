@@ -11,7 +11,7 @@
   <h3>Projects</h3>
   <ul>
     <li><strong>Project 1:</strong> Dive into my first Python project, 'Muumipeikko ja Pyrstötähti: The Comet Adventure,' a gripping text-based journey where you play as Moomintroll navigating the charming yet perilous Moominvalley. With a comet threatening to strike, your choices are pivotal in this interactive tale that demands cleverness and bravery. Solve riddles, engage with enchanting characters, and decipher the comet's secrets. Every decision counts in this adventure that merges classic storytelling with Python programming, marking the start of my foray into the world of code-driven narratives.</li> 
-    - [Muumipeikko ja Pyrstötähti: The Comet Adventure - My First Python Project](Text%20adventure%20game%20-%20Comet%20in%20moominland.html)
+    - [Muumipeikko ja Pyrstötähti: The Comet Adventure - My First Python Project](Text adventure game - Comet in moominland.html)
 
 
    
