@@ -23,6 +23,6 @@
 
   <h3>Contact</h3>
   <p><strong>Email:</strong> ella.pesola@gmail.com</p>
-  <p><strong>LinkedIn:</strong> <a href="#">[linkedin.com/in/ellapesola](https://www.linkedin.com/in/ellapesola/)</a></p>
+  <p><strong>LinkedIn:</strong> <a href="#">[https://www.linkedin.com/in/ellapesola/](https://www.linkedin.com/in/ellapesola/)</a></p>
 </body>
 </html>
