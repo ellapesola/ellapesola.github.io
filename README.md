@@ -1,6 +1,5 @@
 <html>
 <head>
-  <title>Ella Pesola</title>
 </head>
 <body>
   <h1>Ella Pesola</h1>
