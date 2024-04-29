@@ -18,9 +18,8 @@
     <li>Interactivity</li>
     <li>Storytelling</li>
   </ul>
-   
 
-    
+  <h3>Contact</h3>
   <li><strong>Urban Bike Rental Demand Forecasting:</strong> Leveraging data analytics and machine learning, this project predicts daily bike rental volumes for a major U.S. metropolitan area. It employs various regression models to analyze influences on rental frequency, considering weather conditions, temporal patterns, and urban dynamics. Through rigorous exploratory data analysis, feature engineering, and model optimization, the study provides actionable insights, driving data-informed decisions for sustainable urban mobility solutions.</li>
   <a href="Urban%20Bike%20Rental%20Demand%20Forecasting.html">Urban Bike Rental Demand Forecasting</a></p>
   <h3>Project Skills</h3>
@@ -29,6 +28,11 @@
     <li>Machine Learning</li>
     <li>Regression Analysis</li>
   </ul>
+
+   <h3>Contact</h3>
+   <li><strong>PixThread Boutique Team Project:</strong> In our PixThread Boutique project, our team leveraged advanced image recognition technology to redefine the online clothing retail experience. Utilizing a Faster R-CNN model, we collectively tackled the industry-wide issue of high return rates due to sizing and style mismatches. Our collaborative effort resulted in a model that offers highly accurate size and fit recommendations for denim and non-denim pants, significantly improving customer satisfaction and reducing return costs. This project not only demonstrated our model's capability in offering personalized shopping experiences but also reflected our commitment to sustainability by minimizing the carbon footprint associated with product returns. Our teamwork underscores the transformative impact of AI in the e-commerce domain, delivering operational efficiency and fostering enduring customer loyalty.
+<a href="Text%20adventure%20game%20-%20Comet%20in%20moominland.html">Muumipeikko ja Pyrstötähti: The Comet Adventure - My First Python Project</a></p>
+   
 
   <h3>Contact</h3>
   <p><strong>Email:</strong> ella.pesola@gmail.com</p>
