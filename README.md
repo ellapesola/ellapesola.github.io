@@ -31,7 +31,13 @@
 
    <h3>Contact</h3>
    <li><strong>PixThread Boutique Team Project:</strong> In our PixThread Boutique project, our team leveraged advanced image recognition technology to redefine the online clothing retail experience. Utilizing a Faster R-CNN model, we collectively tackled the industry-wide issue of high return rates due to sizing and style mismatches. Our collaborative effort resulted in a model that offers highly accurate size and fit recommendations for denim and non-denim pants, significantly improving customer satisfaction and reducing return costs. This project not only demonstrated our model's capability in offering personalized shopping experiences but also reflected our commitment to sustainability by minimizing the carbon footprint associated with product returns. Our teamwork underscores the transformative impact of AI in the e-commerce domain, delivering operational efficiency and fostering enduring customer loyalty.
-<a href="Text%20adventure%20game%20-%20Comet%20in%20moominland.html">Muumipeikko ja Pyrstötähti: The Comet Adventure - My First Python Project</a></p>
+<a href="Team_03_Snap%26Choose_Classification_Model.pdf">Snap&Choose - Smart Search for your Bottom Wear</a></p>
+<h3>Project Skills</h3>
+  <ul>
+    <li>Image Recognition</li>
+    <li>Data Analysis</li>
+    <li>Collaborative Project Management</li>
+  </ul>
    
 
   <h3>Contact</h3>
