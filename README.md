@@ -5,7 +5,7 @@
   <h1>Ella Pesola</h1>
   <h2>Data Analyst</h2>
   <h3>About Me</h3>
-  <p>I am an MBAN student and Data Analyst looking for projects to expand my skillset and knowledge with. </p>
+  <p>I am an MBAN student and Data Analyst looking for projects to expand my skillset and knowledge with different analytics tools including Python, SQL and R, as well as visualization programs like Tableau.  </p>
 
   <h3>Skills</h3>
   <ul>
@@ -13,6 +13,7 @@
     <li>Python</li>
     <li>R</li>
     <li>Tableau</li>
+    <li>Google Analytics</li>
   </ul>
   
   <h3>Project 1</h3>
