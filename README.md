@@ -1,3 +1,9 @@
+selector {
+  background-image: url('images/header.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 <html>
 <head>
 </head>
@@ -5,7 +11,7 @@
   <h1>Ella Pesola</h1>
   <h2>Data Analyst</h2>
   <h3>About Me</h3>
-  <p>I am an MBAN student and Data Analyst looking for projects to expand my skillset and knowledge with different analytics tools including Python, SQL and R, as well as visualization programs like Tableau.  </p>
+  <p> I'm Ella Pesola, an MBAN graduate and Data Analyst. I navigate the realms of data with tools like Python, SQL, R, and Tableau, transforming raw numbers into strategic insights. My analytical journey is marked by projects ranging from predictive modeling to interactive narratives, reflecting a commitment to data-driven problem-solving and storytelling. I'm passionate about harnessing analytics to make informed decisions and am always eager for the next challenge.  </p>
 
   <h3>Skills</h3>
   <ul>
