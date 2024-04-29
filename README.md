@@ -4,9 +4,9 @@
 </head>
 <body>
   <h1>Ella Pesola</h1>
-  <h2>Web Developer</h2>
+  <h2>Data Analyst</h2>
   <h3>About Me</h3>
-  <p>I am a web developer with a passion for building beautiful and functional websites.</p>
+  <p>I am an MBAN student and Data Analyst looking for projects to expand my skillset and knowledge with. I have experience using SQL, Python, R, Tableau, Labelme.</p>
 
   <h3>Projects</h3>
   <ul>
