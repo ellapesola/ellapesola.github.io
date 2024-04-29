@@ -19,14 +19,15 @@
     <li>Storytelling</li>
   </ul>
    
+
     
   <li><strong>Urban Bike Rental Demand Forecasting:</strong> Leveraging data analytics and machine learning, this project predicts daily bike rental volumes for a major U.S. metropolitan area. It employs various regression models to analyze influences on rental frequency, considering weather conditions, temporal patterns, and urban dynamics. Through rigorous exploratory data analysis, feature engineering, and model optimization, the study provides actionable insights, driving data-informed decisions for sustainable urban mobility solutions.</li>
   <a href="Urban%20Bike%20Rental%20Demand%20Forecasting.html">Urban Bike Rental Demand Forecasting</a></p>
   <h3>Project Skills</h3>
   <ul>
-    <li>HTML/CSS</li>
-    <li>JavaScript</li>
-    <li>Python</li>
+    <li>Feature Engineering</li>
+    <li>Machine Learning</li>
+    <li>Regression Analysis</li>
   </ul>
 
   <h3>Contact</h3>
