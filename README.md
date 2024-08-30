@@ -3,10 +3,10 @@
 <head>
 </head>
 <body>
-  <h1>Ella Pesola</h1>
+  <h1>Lina Pesola</h1>
   <h2>Data Analyst</h2>
   <h3>About Me</h3>
-  <p> I'm Ella Pesola, an MBAN graduate and Data Analyst. I navigate the realms of data with tools like Python, SQL, R, and Tableau, transforming raw numbers into strategic insights. My analytical journey is marked by projects ranging from predictive modeling to interactive narratives, reflecting a commitment to data-driven problem-solving and storytelling. I'm passionate about harnessing analytics to make informed decisions and am always eager for the next challenge.  </p>
+  <p> I'm Lina Pesola, an MBAN graduate and Data Analyst. I navigate the realms of data with tools like Python, SQL, R, and Tableau, transforming raw numbers into strategic insights. My analytical journey is marked by projects ranging from predictive modeling to interactive narratives, reflecting a commitment to data-driven problem-solving and storytelling. I'm passionate about harnessing analytics to make informed decisions and am always eager for the next challenge.  </p>
 
   <h3>Skills</h3>
   <ul>
@@ -49,6 +49,6 @@
   </ul>
 
   <h3>Contact</h3>
-  <p><strong>Email:</strong> ella.pesola@gmail.com</p>
+  <p><strong>Email:</strong> linapp220@gmail.com</p>
   <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ellapesola/">View my LinkedIn profile</a></p>
 
