@@ -1,0 +1,65 @@
+USE wedding_database;
+DROP TEMPORARY TABLE IF EXISTS temp_proposal;
+CREATE TEMPORARY TABLE temp_proposal (
+    budget_level VARCHAR(255),
+    vendor_name VARCHAR(255),
+    product_id VARCHAR(255),
+    vendor_id VARCHAR(255),
+    quantity INT
+);
+
+INSERT INTO temp_proposal (budget_level, vendor_name, product_id, vendor_id, quantity) VALUES ('affordable', 'half moon bay golf links', 'prod_049', 'ven_49', 1);
+INSERT INTO temp_proposal (budget_level, vendor_name, product_id, vendor_id, quantity) VALUES ('affordable', 'dragonfly floristic', 'prod_215', 'flo_32', 2);
+INSERT INTO temp_proposal (budget_level, vendor_name, product_id, vendor_id, quantity) VALUES ('affordable', 'flowers of the valley', 'prod_184', 'flo_01', 8);
+INSERT INTO temp_proposal (budget_level, vendor_name, product_id, vendor_id, quantity) VALUES ('affordable', 'rosies and posies florist', 'prod_220', 'flo_37', 4);
+INSERT INTO temp_proposal (budget_level, vendor_name, product_id, vendor_id, quantity) VALUES ('affordable', 'silks are forever', 'prod_209', 'flo_26', 50);
+INSERT INTO temp_proposal (budget_level, vendor_name, product_id, vendor_id, quantity) VALUES ('affordable', 'le fleur d', 'prod_212', 'flo_29', 50);
+INSERT INTO temp_proposal (budget_level, vendor_name, product_id, vendor_id, quantity) VALUES ('affordable', 'mandy scott events', 'prod_203', 'flo_20', 80);
+INSERT INTO temp_proposal (budget_level, vendor_name, product_id, vendor_id, quantity) VALUES ('affordable', 'brilliant earth', 'prod_093', 'jwl_01', 1);
+INSERT INTO temp_proposal (budget_level, vendor_name, product_id, vendor_id, quantity) VALUES ('affordable', 'brilliant earth', 'prod_090', 'jwl_01', 1);
+INSERT INTO temp_proposal (budget_level, vendor_name, product_id, vendor_id, quantity) VALUES ('affordable', 'allure bridal', 'prod_826', 'att_02', 1);
+INSERT INTO temp_proposal (budget_level, vendor_name, product_id, vendor_id, quantity) VALUES ('affordable', 'blacktux', 'prod_853', 'att_17', 1);
+INSERT INTO temp_proposal (budget_level, vendor_name, product_id, vendor_id, quantity) VALUES ('affordable', 'fogcutter', 'prod_254', 'cat_23', 50);
+INSERT INTO temp_proposal (budget_level, vendor_name, product_id, vendor_id, quantity) VALUES ('affordable', 'blue heron catering inc', 'prod_273', 'cat_21', 50);
+INSERT INTO temp_proposal (budget_level, vendor_name, product_id, vendor_id, quantity) VALUES ('affordable', 'theknot', 'prod_153', 'inv_23', 1);
+INSERT INTO temp_proposal (budget_level, vendor_name, product_id, vendor_id, quantity) VALUES ('affordable', 'etsy', 'prod_162', 'inv_29', 1);
+INSERT INTO temp_proposal (budget_level, vendor_name, product_id, vendor_id, quantity) VALUES ('affordable', 'coffee n cream press', 'prod_144', 'inv_11', 1);
+INSERT INTO temp_proposal (budget_level, vendor_name, product_id, vendor_id, quantity) VALUES ('affordable', 'paperculture', 'prod_172', 'inv_44', 1);
+INSERT INTO temp_proposal (budget_level, vendor_name, product_id, vendor_id, quantity) VALUES ('affordable', 'paperculture', 'prod_174', 'inv_44', 1);
+INSERT INTO temp_proposal (budget_level, vendor_name, product_id, vendor_id, quantity) VALUES ('affordable', 'paperculture', 'prod_168', 'inv_44', 1);
+INSERT INTO temp_proposal (budget_level, vendor_name, product_id, vendor_id, quantity) VALUES ('affordable', 'paperculture', 'prod_177', 'inv_44', 1);
+INSERT INTO temp_proposal (budget_level, vendor_name, product_id, vendor_id, quantity) VALUES ('affordable', 'lucky devils creative', 'prod_398', 'vid_35', 2);
+INSERT INTO temp_proposal (budget_level, vendor_name, product_id, vendor_id, quantity) VALUES ('affordable', 'premier dj service', 'prod_340', 'dj_27', 1);
+INSERT INTO temp_proposal (budget_level, vendor_name, product_id, vendor_id, quantity) VALUES ('affordable', 'bfab bridal wedding hairstylist makeup artist', 'prod_446', 'hmu_03', 8);
+INSERT INTO temp_proposal (budget_level, vendor_name, product_id, vendor_id, quantity) VALUES ('affordable', 'rsvp decor', 'prod_060', 'ren_19', 1);
+INSERT INTO temp_proposal (budget_level, vendor_name, product_id, vendor_id, quantity) VALUES ('affordable', 'stuart rental', 'prod_083', 'ren_21', 50);
+INSERT INTO temp_proposal (budget_level, vendor_name, product_id, vendor_id, quantity) VALUES ('affordable', 'fine linen creations', 'prod_065', 'ren_10', 50);
+INSERT INTO temp_proposal (budget_level, vendor_name, product_id, vendor_id, quantity) VALUES ('affordable', 'abbey party rents sf', 'prod_067', 'ren_02', 50);
+INSERT INTO temp_proposal (budget_level, vendor_name, product_id, vendor_id, quantity) VALUES ('affordable', 'piedmont party rentals', 'prod_054', 'ren_16', 50);
+INSERT INTO temp_proposal (budget_level, vendor_name, product_id, vendor_id, quantity) VALUES ('affordable', 'good events', 'prod_072', 'ren_12', 6);
+
+
+SELECT * FROM temp_proposal;
+
+DROP TEMPORARY TABLE IF EXISTS wedding_cost_data;
+CREATE TEMPORARY TABLE wedding_cost_data AS 
+SELECT budget_level, v.vendor_depart as category,v.vendor_name,v.vendor_id, p.product_id ,p.product_name as item_name,p.price_unit as price_per_item,quantity,round(SUM(p.price_unit * t.quantity),2) AS subtotal
+FROM temp_proposal as t
+LEFT JOIN products as p
+ON t.product_id = p.product_id
+LEFT JOIN Vendors as V
+ON p.vendor_id = v.vendor_id
+WHERE v.vendor_id IS NOT NULL
+GROUP BY budget_level, v.vendor_name,v.vendor_id, p.product_id ,p.price_unit,quantity
+ORDER BY category asc;
+
+
+/* This query is the file that is to ready tu download and use in python */
+SELECT * FROM wedding_cost_data;
+
+/* This is just to check the cost per department*/
+SELECT category, round(sum(subtotal),1) AS department_expense
+FROM wedding_cost_data as w
+INNER JOIN vendors as v
+ON w.vendor_id = v.vendor_id 
+GROUP BY category;
