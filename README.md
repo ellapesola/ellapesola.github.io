@@ -48,7 +48,7 @@
     <li>Collaborative Project Management</li>
   </ul>
 
-    <div class="project">
+    
   <h3>Project 4</h3>
   <ul>
     <li>
