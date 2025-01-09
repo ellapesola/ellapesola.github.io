@@ -65,7 +65,6 @@
 
 
     <h3>Project 5</h3>
-    <h3>Tropical Cyclone Damage Assessment: Hurricane Maria in Puerto Rico (Team Project)</h3>
     <li><strong>Tropical Cyclone Damage Assessment: Hurricane Maria in Puerto Rico:</strong>This project focused on assessing the damage caused by Hurricane Maria in Puerto Rico using satellite imagery and machine learning. As part of a team, we developed a data-driven solution to identify and classify damaged and undamaged buildings and vegetation, providing actionable insights for disaster recovery and management.This project focused on assessing the damage caused by Hurricane Maria in Puerto Rico using satellite imagery and machine learning. As part of a team, we developed a data-driven solution to identify and classify damaged and undamaged buildings and vegetation, providing actionable insights for disaster recovery and management.
 <a href="Team_03_A1_MBAN1_Business_Challenge.html">Challenge Analysis and Code</a></
   <h3>Project Skills and key contributions</h3>
