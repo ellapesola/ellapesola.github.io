@@ -48,29 +48,39 @@
     <li>Collaborative Project Management</li>
   </ul>
 
-    <h3>Project 4</h3>
-    <ul>
-      <li><strong>Data Base Building and Wedding Planning:</strong> This comprehensive team-based project was completed across two courses, focusing on database development and data analysis within the context of a wedding planning business. The project aimed to address the business question: "Are wedding vendors with sustainable practices more cost-effective?" The tasks spanned data collection, database design, implementation, and analysis, showcasing practical skills in database development, SQL, and team collaboration. This was our first big business analytics challenge including the whole cohort for an ensembled wedding project. 
-    <ul>
-  <a href="DATABASE-WEDDING-MBAN.pdf">Wedding Planning Database</a></
-  <a href="1220203_WEDDING_COST_DATA_BUSINESS_CHALLENGE_1_TEAM_1.txt">Wedding Cost Data for Flower Depatment</a></
-  <a href="1220203_WEDDING_COST_BREAKDOWN_BUSINESS_CHALLENGE_1_TEAM_1.html">Wedding Cost Breakdown for Flower Department</a></
-  <a href="1220203_WEDDING_COST_DATA_BUSINESS_CHALLENGE_1_TEAM_1.txt">Wedding Cost Data for Flower Depatment</a></
-  <h3>Project Skills and key contributions</h3>
-     <ul>
+    <div class="project">
+  <h3>Project 4</h3>
+  <ul>
+    <li>
+      <strong>Database Building and Wedding Planning:</strong> This comprehensive team-based project was completed across two courses, focusing on database development and data analysis within the context of a wedding planning business. The project aimed to address the business question: "Are wedding vendors with sustainable practices more cost-effective?" The tasks spanned data collection, database design, implementation, and analysis, showcasing practical skills in database development, SQL, and team collaboration. This was our first big business analytics challenge, including the whole cohort for an ensemble wedding project.
+    </li>
+  </ul>
+  <ul>
+    <li><a href="DATABASE-WEDDING-MBAN.pdf">Wedding Planning Database</a></li>
+    <li><a href="1220203_WEDDING_COST_DATA_BUSINESS_CHALLENGE_1_TEAM_1.txt">Wedding Cost Data for Flower Department</a></li>
+    <li><a href="1220203_WEDDING_COST_BREAKDOWN_BUSINESS_CHALLENGE_1_TEAM_1.html">Wedding Cost Breakdown for Flower Department</a></li>
+  </ul>
+  <h4>Project Skills and Key Contributions</h4>
+  <ul>
     <li>Developing an ER diagram in 3NF with primary and foreign keys.</li>
     <li>Creating and populating tables using SQL for structured data analysis.</li>
     <li>Designing vendor options by wedding size, budget, and themes.</li>
     <li>Preparing cost-effective solutions based on client needs.</li>
     <li>Data Analytics, Python, SQL, Database Design, Team Collaboration</li>
   </ul>
+</div>
 
-
-    <h3>Project 5</h3>
-    <ul>
-      <li><strong>Tropical Cyclone Damage Assessment: Hurricane Maria in Puerto Rico:</strong>This project focused on assessing the damage caused by Hurricane Maria in Puerto Rico using satellite imagery and machine learning. As part of a team, we developed a data-driven solution to identify and classify damaged and undamaged buildings and vegetation, providing actionable insights for disaster recovery and management.This project focused on assessing the damage caused by Hurricane Maria in Puerto Rico using satellite imagery and machine learning. As part of a team, we developed a data-driven solution to identify and classify damaged and undamaged buildings and vegetation, providing actionable insights for disaster recovery and management.
-<a href="Team_03_A1_MBAN1_Business_Challenge.html">Challenge Analysis and Code</a></
-  <h3>Project Skills and key contributions</h3>
+<div class="project">
+  <h3>Project 5</h3>
+  <ul>
+    <li>
+      <strong>Tropical Cyclone Damage Assessment: Hurricane Maria in Puerto Rico:</strong> This project focused on assessing the damage caused by Hurricane Maria in Puerto Rico using satellite imagery and machine learning. As part of a team, we developed a data-driven solution to identify and classify damaged and undamaged buildings and vegetation, providing actionable insights for disaster recovery and management.
+    </li>
+  </ul>
+  <ul>
+    <li><a href="Team_03_A1_MBAN1_Business_Challenge.html">Challenge Analysis and Code</a></li>
+  </ul>
+  <h4>Project Skills and Key Contributions</h4>
   <ul>
     <li>Used manual and automatic image annotation tools like <strong>Roboflow</strong> and <strong>LabelMe</strong> to annotate satellite images.</li>
     <li>Built a machine learning model to classify damaged and undamaged structures and vegetation with high accuracy.</li>
@@ -79,6 +89,7 @@
   </ul>
   <p><strong>Skills:</strong> Satellite Image Analysis, Machine Learning, Data Annotation (Roboflow, LabelMe), Python, Disaster Management Insights, Problem Solving, Big Data Management, Automation</p>
 </div>
+
     
 
   <h3>Contact</h3>
